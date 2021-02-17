@@ -11,7 +11,7 @@ public class Exercicio14 {
 		System.out.println("Digite a velocidade do link de Internet em Mbps: ");
 		double velocidadeLink = scan.nextDouble();
 		
-		double tempoDownload = (tamanhoArquivo / velocidadeLink) / 60;
+		double tempoDownload = (tamanhoArquivo / velocidadeLink);
 		System.out.println("O tempo estimado em minutos é: " + tempoDownload);
 
 		

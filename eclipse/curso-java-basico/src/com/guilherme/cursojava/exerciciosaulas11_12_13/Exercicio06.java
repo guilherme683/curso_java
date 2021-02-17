@@ -13,10 +13,10 @@ public class Exercicio06 {
 		double raio = scan.nextDouble();
 		
 		
-		double π = 3.14159265358979323846; 
-		double areaCirculo = π * (raio * raio);
+		//double π = 3.14159265358979323846; 
+		double areaCirculo = Math.PI  * Math.pow(raio, 2);
 		
-		System.out.println("A area do ciruculo é: " + areaCirculo);
+		System.out.println("A area do circulo é: " + areaCirculo);
 	}
 
 }

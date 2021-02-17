@@ -8,8 +8,9 @@ public class Exercicio11 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite 2 numeros inteiros: ");
+		System.out.print("Digite um numero inteiro: ");
 		int numeroInteiro1 = scan.nextInt();
+		System.out.print("Digite outro numero inteiro: ");
 		int numeroInteiro2 = scan.nextInt();
 		
 		System.out.print("Digite um numero real: ");
@@ -22,6 +23,7 @@ public class Exercicio11 {
 		System.out.print("O valor do produto é: " + produto + "\n");
 		System.out.print("O valor da soma é: " + soma + "\n");
 		System.out.print("O valor da potencia é: " + potencia);
+	
 	
 	}
 
